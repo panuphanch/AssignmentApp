@@ -24,5 +24,7 @@ namespace AssignmentApp.Data
         }
 
         public DbSet<Company> Company { get; set; }
+
+        public DbSet<AssignmentApp.Models.ApplicationUser> ApplicationUser { get; set; }
     }
 }

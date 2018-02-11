@@ -25,9 +25,17 @@
                 @Html.DisplayFor(modelItem => item.CompanyName)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="menuAction" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Action
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="menuAction">
+                        <li><a class="dropdown-item" asp-action="Edit" asp-route-id="@item.ID">Edit</a></li>
+                        <li><a class="dropdown-item" asp-action="Details" asp-route-id="@item.ID">Details</a></li>
+                        <li><a class="dropdown-item" asp-action="Delete" asp-route-id="@item.ID">Delete</a></li>
+                    </ul>
+                </div>
             </td>
         </tr>
     }
