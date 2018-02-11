@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{B3158EEB-F80E-4B41-9881-53D574150051}|Default">
+  <MonoDevelop.Ide.ItemProperties.My-Company PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/AccountController.cs">
+    <Files>
+      <File FileName="Views/Manage/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Controllers/ManageController.cs" Line="40" Column="44" />
+      <File FileName="Models/ApplicationUser.cs" Line="10" Column="18" />
+      <File FileName="Controllers/AccountController.cs" Line="223" Column="93" />
+      <File FileName="Startup.cs" Line="29" Column="45" />
+      <File FileName="Data/ApplicationDbContext.cs" Line="11" Column="62" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/panuphanc/Projects/My-Company/Controllers/AccountController.cs" relfile="Controllers/AccountController.cs" line="112" column="1" />
+      <Breakpoint file="/Users/panuphanc/Projects/My-Company/Controllers/AccountController.cs" relfile="Controllers/AccountController.cs" line="93" column="1" />
+      <Breakpoint file="/Users/panuphanc/Projects/My-Company/Controllers/AccountController.cs" relfile="Controllers/AccountController.cs" line="58" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
